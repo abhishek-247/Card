@@ -15,13 +15,13 @@
       <img src="img/Untitled-3.webp" class="card-img-top" alt="">
       <div class="card-body text-center ">
         <h5 class="card-title fs-3 mt-4">Angle priya</h5>
-        <p class="card-text fs-4 mt-2">Stranger</p>
+        <p class="card-text fs-4 mt-2" id="res">Stranger</p>
 
         <!-- <a href="#" class="btn btn-primary mb-4" onclick="myFunction()">ADD FRIEND</a> -->
         <button class="btn btn-primary mb-4" onclick="myFunction()">
           ADD FRIEND
         </button>
-        <p id="demo"></p>
+        
       </div>
     </div>
   </div>
@@ -34,7 +34,9 @@
     <script>
       function myFunction() {
         console.log("running");
-        document.getElementById("demo").innerHTML = "rohit";
+        
+        document.getElementById("res").innerHTML = "friend";
+
       } 
     </script>
 </body>
